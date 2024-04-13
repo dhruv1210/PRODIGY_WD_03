@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+    background-image: url(wallpaper_1280x720.jpg);
+    
+    background-size: cover;
+
+}
+
+.container{
+    /* "VH" is viewport height */
+    height: 70vh;
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vmin;
+
+}
+
+.game{
+    /* "vmin" is 1% of viewport height   */
+    height: 60vmin;
+    width: 60vmin;
+
+    display: flex;
+    /* agar jaagah na ho tohh next line m aa jao */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+
+    /* 1 rem = 16px */
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: red;
+    background-color: #191913;
+    color: #fff;
+    
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: red;
+    background-color: #191913;
+    color: #fff;
+}
+
+#msg{
+    color: #19167b;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
